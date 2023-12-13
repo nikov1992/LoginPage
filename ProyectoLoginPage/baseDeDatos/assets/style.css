@@ -1,0 +1,32 @@
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .titulo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formularios{
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formulario{
+    display: grid;
+    margin: 20px;
+    background-color: rgba(239, 215, 172, 0.935);
+    text-align: center;
+  }
+
+  
+
+
