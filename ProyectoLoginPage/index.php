@@ -9,7 +9,7 @@
 
 <body>
 
-  <h1 class="text-center p-4">BIENVENIDO A GYMPASS213</h1>
+  <h1 class="text-center p-4">BIENVENIDO A GYMPASS probrando git hub</h1>
 
   <div class="container fluid row">
     <div class="col-4 p-3">
