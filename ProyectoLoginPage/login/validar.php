@@ -1,8 +1,9 @@
 <?php
 $usuario = $_POST['usuario'];
 $contrasena = $_POST['contrasena'];
-session_start();
-$_SESSION['usuario']=$usuario;
+
+// session_start();
+// $_SESSION['usuario']=$usuarioIngreso;
 
 include('db.php');
 
@@ -12,7 +13,12 @@ $resultado = mysqli_query($conexion, $consulta);
 $filas = mysqli_num_rows($resultado);
 
 if ($filas){
+    session_start(); // Iniciar la sesión
     header("location:home.php");
+    // Guardar el nombre de usuario en la sesión
+    $_SESSION['usuario'] = $usuario;
+    echo $_SESSION ['usuario'];
+
     
 }else{
     ?>
@@ -24,9 +30,5 @@ if ($filas){
 }
 
 mysqli_free_result($resultado);
-mysqli_close($conexion);
-
-
-
 
 ?>

@@ -22,21 +22,21 @@
             <div class="mb-4">
               <h3 class="text-center text-light">ALTA DE USUARIO </h3>
               <label class="form-label text-light ">Nombre completo</label>
-              <input placeholder="Juan Perez" type="text" name="nombre_completo" class="form-control">
+              <input placeholder="Juan Perez" type="text" name="nombre_completo" class="form-control" required>
             </div>
     
             <div class="mb-3">
               <label class="form-label text-light ">Correo electronico</label>
-              <input placeholder="juanP@gmail.com" name="mail" class="form-control">
+              <input placeholder="juanP@gmail.com" name="mail" class="form-control" required>
             </div>
     
             <div class="mb-3">
               <label class="form-label text-light">Usuario</label>
-              <input placeholder="JuanPerez32" type="text" name="usuario" class="form-control">
+              <input placeholder="JuanPerez32" type="text" name="usuario" class="form-control" required>
             </div>
     
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label text-light">Password</label>
+              <label for="exampleInputPassword1" class="form-label text-light">Password</label required>
               <input name="contrasena" type="password" class="form-control">
             </div>
     
@@ -49,11 +49,11 @@
           <div class="mb-3">
             <h3 class="text-center text-light">LOGIN </h3>
             <label for="exampleInputEmail1" class="form-label">Usuario</label>
-            <input name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label text-light">Constrasena</label>
-            <input name="contrasena" type="password" class="form-control" id="exampleInputPassword2">
+            <input name="contrasena" type="password" class="form-control" id="exampleInputPassword2" required>
           </div>
           <button type="submit" class="btn btn-success">Ingresar</button>
         </form>

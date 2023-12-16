@@ -35,7 +35,7 @@
         echo'
         <script>
             alert ("ESTE MAIL YA ESTA REGISTRADO !! repite correo"); 
-            window.location = "../../index.php";
+            window.location = "../../loginfUsuario.html";
         </script>
         ';
         exit();
@@ -48,7 +48,7 @@
             echo'
             <script>
                 alert ("ESTE USUARIO YA ESTA REGISTRADO"!! repite usuario!!); 
-                window.location = "../../index.php";
+                window.location = "../../loginfUsuario.html";
             </script>
             ';
             exit();

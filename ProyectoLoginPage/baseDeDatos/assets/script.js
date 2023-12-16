@@ -10,15 +10,15 @@ var formulario__register = document.querySelector(".formulario__register");
 
 
 //PARA SABER SI EL BOTON FUNCIONA
-function register(){
-    formulario__register.style.backgroundColor = "orange";
- }
+// function register(){
+//     formulario__register.style.backgroundColor = "orange";
+//  }
 
- function register2(){
-    formulario__producto.style.backgroundColor = "orange";
- }
+//  function register2(){
+//     formulario__producto.style.backgroundColor = "orange";
+//  }
 
- //asdasd
+//  //asdasd
 
  
 

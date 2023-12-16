@@ -10,15 +10,15 @@
     $conexion = mysqli_connect("localhost","root","","login_register_db");
     $conexion2 = mysqli_connect("localhost","root","","producto_register_db");
 
-    if($conexion){
-        echo 'Conecatado exitosamente a la base de datos POR USUARIO';
-    }else{
-        echo 'No se pudo conectar a la base de datos';
-    }
+    // if($conexion){
+    //     echo 'Conecatado exitosamente a la base de datos POR USUARIO';
+    // }else{
+    //     echo 'No se pudo conectar a la base de datos';
+    // }
 
-    if($conexion2){
-        echo 'Conecatado exitosamente a la base de datos POR PRODUCTO!';
-    }else{
-        echo 'No se pudo conectar a la base de datos';
-    }
+    // if($conexion2){
+    //     echo 'Conecatado exitosamente a la base de datos POR PRODUCTO!';
+    // }else{
+    //     echo 'No se pudo conectar a la base de datos';
+    // }
 ?>
